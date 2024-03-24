@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "username": "Pam",
+    "country": "Anguilla",
+    "date": "22/2/2014",
+    "message": "How are you guys doing?"
+  },
+  {
+    "id": 2,
+    "username": "Sofia",
+    "country": "Macau",
+    "date": "05/2/1993",
+    "message": "Hello world!"
+  },
+  {
+    "id": 3,
+    "username": "Ashley",
+    "country": "Mauritania",
+    "date": "19/10/2001",
+    "message": "Greetings from Mauritania!"
+  },
+  {
+    "id": 4,
+    "username": "Baxter",
+    "country": "Malta",
+    "date": "3/9/2009",
+    "message": "Very nice!"
+  },
+  {
+    "id": 5,
+    "username": "Vickie",
+    "country": "Uganda",
+    "date": "22/7/2003",
+    "message": "Anyone from Africa here?"
+  }
+]

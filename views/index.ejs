@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Guestbook</title>
+</head>
+
+<body>
+    <div class="pure-g">
+        <div class="pure-u-6-24"></div>
+        <div class="pure-u-12-24">
+            <p class="padding">
+            <h1>Guestbook - view guestbook</h1>
+            <p>Here you can read all messages.</p>
+
+            <table class="pure-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Country</th>
+                        <th>Date</th>
+                        <th>Message</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% data.forEach(item=> { %>
+                        <tr>
+                            <td>
+                                <%= item.id %>
+                            </td>
+                            <td>
+                                <%= item.username %>
+                            </td>
+                            <td>
+                                <%= item.country %>
+                            </td>
+                            <td>
+                                <%= item.date %>
+                            </td>
+                            <td>
+                                <%= item.message %>
+                            </td>
+                        </tr>
+                        <% }); %>
+                </tbody>
+            </table>
+
+            </p>
+        </div>
+        <div class="pure-u-6-24"></div>
+    </div>
+</body>
+
+</html>
